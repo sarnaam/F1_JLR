@@ -111,3 +111,21 @@ if __name__ == "__main__":
     result = get_best_circuit_performances()
     # Printing the result in a pretty JSON format
     print(json.dumps(result, indent=4))
+
+
+
+# OUTPUT JSON    
+# {
+#     "constructor_performance": {
+#         "Alfa Romeo": "Circuit Bremgarten",
+#         "AlphaTauri": "Autodromo Nazionale di Monza",
+#         "Alpine F1 Team": "Hungaroring",
+#         "Aston Martin": "Baku City Circuit",
+#         "Ferrari": "Reims-Gueux",
+#         "Haas F1 Team": "Bahrain International Circuit",
+#         "McLaren": "Aut\u00f3dromo Juan y Oscar G\u00e1lvez",
+#         "Mercedes": "Reims-Gueux",
+#         "Red Bull": "Albert Park Grand Prix Circuit",
+#         "Williams": "N\u00fcrburgring"
+#     }
+# }
